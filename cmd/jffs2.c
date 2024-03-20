@@ -553,7 +553,7 @@ int do_jffs2_ls(struct cmd_tbl *cmdtp, int flag, int argc, char *const argv[])
 
 /**
  * Routine implementing u-boot fsinfo command. This routine prints out
- * miscellaneous filesystem informations/statistics.
+ * miscellaneous filesystem information/statistics.
  *
  * @param cmdtp command internal data
  * @param flag command flag

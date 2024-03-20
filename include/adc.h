@@ -57,7 +57,7 @@ struct adc_channel {
  * * Vdd: +3.3V; Vss:  0.0V -> 3.3 Vdiff
  * The last one is usually standard and doesn't require the fdt polarity info.
  *
- * For more informations read binding info:
+ * For more information read binding info:
  * - doc/device-tree-bindings/adc/adc.txt
  *
  * @data_mask              - conversion output data mask

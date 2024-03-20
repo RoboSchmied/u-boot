@@ -213,7 +213,7 @@ struct register_set_hdr_v1 {
 /*
  * Various values for the opt_hdr_v1->headertype field, describing the
  * different types of optional headers. The "secure" header contains
- * informations related to secure boot (encryption keys, etc.). The
+ * information related to secure boot (encryption keys, etc.). The
  * "binary" header contains ARM binary code to be executed prior to
  * executing the main payload (usually the bootloader). This is
  * typically used to execute DDR3 training code. The "register" header

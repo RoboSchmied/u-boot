@@ -31,8 +31,8 @@
  *
  * - Reads out the SDRAM address decoding windows at initialization
  *   time, and fills the mbus_dram_info structure with these
- *   informations. The exported function mv_mbus_dram_info() allow
- *   device drivers to get those informations related to the SDRAM
+ *   information. The exported function mv_mbus_dram_info() allow
+ *   device drivers to get those information related to the SDRAM
  *   address decoding windows. This is because devices also have their
  *   own windows (configured through registers that are part of each
  *   device register space), and therefore the drivers for Marvell
